@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: LIGHTGOLDENRODYELLOW;
+    font-size: 16;
+    font-family: 'Noto Serif', serif;
+}
+
+.cont {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 300px;
+}
+
+figure {
+    width: 100%;
+    position: relative;
+}
+
+figure .map {
+    width: 100%;
+    vertical-align: top;
+    box-shadow: 5px 5px 60px rgba(0,0,0,20);
+    border-radius: 10px;
+}
+
+figure .icon {
+    position: absolute;
+    top: 32%;
+    left: 55.3%;
+    font-size: 40px;
+    color: red;
+}
