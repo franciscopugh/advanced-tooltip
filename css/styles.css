@@ -126,3 +126,40 @@ figure .icon {
 .tooltip .info button:hover {
     background: rgba(0,230,118,0.9);
 }
+
+/* ------------------------- */
+/* Mediaqueries */
+/* ------------------------- */
+
+@media screen and (max-width: 768px) {
+	figcaption .tooltip {
+		font-size: 12px;
+	}
+
+	.tooltip .info button {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	figure .map {
+		margin-bottom: 40px;
+	}
+
+	figcaption .icon {
+		top: 32px;
+		/* display: none; */
+	}
+
+	.tooltip {
+		position: static;
+		opacity: 1;
+		width: 100%;
+		transform: translate(0);
+	}
+
+	.tooltip::after {
+		content: "";
+		display: none;
+	}
+}
